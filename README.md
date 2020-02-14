@@ -7,6 +7,7 @@ $ go get github.com/uudashr/goecho/cmd/goecho
 
 ## Usage
 ```
-$ goecho
-Hello
+Usage of goecho:
+  -m string
+    	Message (default "Hello")
 ```
