@@ -1,11 +1,15 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 
 	"github.com/uudashr/goecho"
 )
 
 func main() {
-	fmt.Println(goecho.Echo("Hello"))
+	flagMsg := flag.String("m", "Hello", "Message")
+	flag.Parse()
+
+	fmt.Println(goecho.Echo(*flagMsg))
 }
