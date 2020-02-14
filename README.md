@@ -2,7 +2,7 @@
 
 ## Installation
 ```
-$ go get github.org/uudashr/goecho/cmd/goecho
+$ go get github.com/uudashr/goecho/cmd/goecho
 ```
 
 ## Usage
